@@ -27,6 +27,7 @@ const veterinarioSchema = mongoose.Schema({
   },
   token: {
     type: String,
+    default: Date.now(),
   },
   confirmado: {
     type: Boolean,
